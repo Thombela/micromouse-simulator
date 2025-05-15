@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore Solutions
+Solutions
+
+# Ignore slprj
+slprj
+
+#Ignore base mazes files
+test.mat
+test1.mat
+test2.mat
+maze.mat
+
+#Ignore unsaved/temps
+*.asv
+*.slxc
+
+#Ignore automarker
+automarker.m
+
+#Ignore maze generator
+generate_maze.m

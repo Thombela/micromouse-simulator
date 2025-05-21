@@ -38,9 +38,12 @@ maze.mat
 #Ignore unsaved/temps
 *.asv
 *.slxc
+.autosave
+.original
 
-#Ignore automarker
+#Ignore automarker and results
 automarker.m
+.csv
 
 #Ignore maze generator
 generate_maze.m

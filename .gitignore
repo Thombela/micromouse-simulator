@@ -29,21 +29,22 @@ Solutions
 # Ignore slprj
 slprj
 
-#Ignore base mazes files
+#Ignore base mazes and additional files
 test.mat
 test1.mat
 test2.mat
 maze.mat
+maze_*.mat
 
 #Ignore unsaved/temps
 *.asv
 *.slxc
-.autosave
-.original
+*.autosave
+*.original
 
 #Ignore automarker and results
 automarker.m
-.csv
+*.csv
 
 #Ignore maze generator
 generate_maze.m

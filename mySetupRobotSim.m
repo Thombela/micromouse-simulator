@@ -45,7 +45,7 @@ function mySetupRobotSim()
     
     % Plot the robot's position and orientation
     hold(ax, 'on');
-    title(ax, 'Line = robot orientation, Image = robot position');
+    title(ax, 'Micromouse Robot Simulator - Mpilonhle Ngcoya');
     
     % Load and resize the robot image (replace 'robotImage.png' with your image file, PNG with transparency recommended)
     [robotImg, ~, alpha] = imread('mouse_image.png'); % Load a PNG image with transparent background (or JPG)

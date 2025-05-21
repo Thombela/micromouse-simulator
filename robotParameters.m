@@ -10,4 +10,3 @@ robotParams.axle_to_front = 56;                  % Distance from axle to front o
 robotParams.axle_to_centre = 5;                  % Distance from axle to centre of robot (mm)
 
 load wheelLUT;                                   % Load lookup table
-load wheelMotorModel;                            % Load motor model
